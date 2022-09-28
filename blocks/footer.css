@@ -8,16 +8,9 @@
 }
 
 .footer__content {
-  padding: 60px 100px 109 px 80px;
   display: flex;
   width: 100%;
   justify-content: space-between;
-}
-
-.footer__column {
-  /*display: flex;
-  flex-basis: auto;
-  flex: 0 0 auto;*/
 }
 
 .footer__logo {
@@ -25,18 +18,8 @@
   width: 116px;
 }
 
-.footer__content-social {
-  /*margin-left: auto;*/
-}
-
-.footer__column_content_social {
-  /*margin-left: 100px;*/
-}
-
 .footer__list {
   list-style-type: none;
-  /*padding: 0;
-  margin: 0;*/
 }
 
 .footer__list-item {

@@ -7,7 +7,7 @@
       name="description"
       content="This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief."
     />
-    <meta name="keywords" content="HTML, CSS, Flexbox" />
+    <meta name="keywords" content="HTML, CSS, Flexbox, animation" />
     <meta name="author" content="Julia C" />
     <title>Julia's Coffee Shop at Practicum</title>
     <link rel="stylesheet" href="./pages/index.css" />
@@ -210,6 +210,8 @@
               >
               <input
                 type="number"
+                min="1"
+                max="8"
                 class="form__input"
                 id="guest-number"
                 placeholder="1-8"
@@ -238,7 +240,7 @@
               <input
                 type="checkbox"
                 id="agreement"
-                class="form__input_type_checkbox"
+                class="form__checkbox"
                 required
               />
               <label for="agreement" class="form__label"
@@ -264,6 +266,7 @@
             </p>
           </div>
           <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer id="footer" class="footer">
