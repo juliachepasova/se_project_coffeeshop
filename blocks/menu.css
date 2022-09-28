@@ -45,7 +45,7 @@
   margin: 0;
 }
 
-.card__third {
+.card:last-child {
   margin-top: 100px;
 }
 
