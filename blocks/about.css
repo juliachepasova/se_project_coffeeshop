@@ -15,7 +15,7 @@
   display: flex;
   background-color: #0a2750;
   color: #ffffff;
-  padding: 100px 80px 173px 80px;
+  padding: 0px 80px 173px 80px;
   overflow: hidden;
   position: relative;
   justify-content: space-between;
@@ -29,6 +29,7 @@
   margin: 0;
   width: 100%;
   z-index: 1;
+  padding-top: 100px;
 }
 
 .about__content {
@@ -37,7 +38,7 @@
   line-height: 30px;
   max-width: 660px;
   z-index: 1;
-  padding-top: 9px;
+  padding-top: 119px;
 }
 
 .about__paragraph {
